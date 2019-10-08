@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PairOfListsTest {
     @Test
     void tes1() {
-        int pivot = 30;
+        int pivot = 20;
         List<Integer> lint = List.of(1, 23, 5, 42, 10, 3, 54, 22, 6);
         PairOfLists pair = Partitioned.partition(lint, pivot);
         assertTrue(checkMore(pair.getFirst(),pivot));
